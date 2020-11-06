@@ -1,0 +1,47 @@
+<html>
+    <head><title>Math Bingo!</title>
+        <link rel="stylesheet" href="style.css">
+
+        <script src="fabric.js"></script>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+</head>
+<body>
+<h4 id="player1_name" style="background-color: white;
+font-size: 25px;"></h4><span style="background-color: white;
+font-size: 25px;" id="player1_score"></span>
+<br>
+<h4 id="player2_name" style="background-color: white;
+font-size: 25px;"></h4><span style="background-color: white;
+font-size: 25px;" id="player2_score"></span>
+
+<div class="container">
+    <center>
+    <h1 id="h1">Math Bingo!</h1>
+
+    <h3 id="player_question"></h3>
+    <h3 id="player_answer"></h3>
+
+    <div id="output" class="col-lg-6"></div>
+    
+    <h3>Enter the first number :</h3>
+    <br>
+    <input id="number1" class="form-control" placeholder="First number">
+    <br>
+    <h3>Enter the second number :</h3>
+    <br>
+    <input id="number2" class="form-control" placeholder="Second number">
+
+    <br>
+    <button id="send" onclick="send()" class="btn btn'-success" style="width:30%">Send Word</button>
+    </center>
+</div>
+
+        <script src="quiz_game_page.js"></script>
+        </body>
+ 
+</html>

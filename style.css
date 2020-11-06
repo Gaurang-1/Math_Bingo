@@ -1,0 +1,104 @@
+#word
+{
+	width: 60%;
+}
+#word_display
+{
+	letter-spacing: 5px;
+}
+#output
+{
+background: white;
+border-radius: 10px;
+border-top: 10px solid #AA4465;
+padding: 10px;
+float: none;
+text-align: left;
+}
+body{
+    text-align: center;
+    background-image: url("math.webp");
+    background-size: cover;
+}
+
+#log_1{
+height: 200px;
+    width:600px;
+    background: rgb(58,71,180);
+	background: linear-gradient(90deg, rgba(58,71,180,1) 0%, rgba(81,181,233,1) 100%, rgba(252,176,69,1) 100%);
+}
+#log_2{
+    height: 200px;
+        width:600px;
+    background: rgb(58,71,180);
+	background: linear-gradient(90deg, rgba(58,71,180,1) 0%, rgba(81,181,233,1) 100%, rgba(252,176,69,1) 100%);
+}
+#main{
+    margin-top: 100px;
+    background: linear-gradient(to bottom right, #1a4c8e 0%, #a385c1 100%);
+    border-radius: 10px;
+    border-top: 10px solid  rgb(9, 61, 231);
+    padding: 10px;
+    float: none;
+    text-align: left;
+    width: 37%;
+    margin-left: 550px;
+text-align: center;
+
+    }
+
+
+
+#d{
+    color:white;
+    
+    }
+    #c{
+        color:white;
+        }
+
+        button{
+
+            background: linear-gradient(to bottom right, #ba90f9 0%, #0a448f 100%);
+            width:5%;
+            height:50px;
+            border-radius: 25px;
+            color:white;
+        }
+p{
+    color:blue;
+    font-size:100px;
+    font-family: "Times New Roman", Times, serif;
+    background-color: white;
+}
+
+#h1{
+    color:blue;
+    font-size:100px;
+    font-family: "Times New Roman", Times, serif;
+    background-color: white;
+
+}
+h3{
+    color:black;
+    background-color: white;
+}
+#output
+{
+background: white;
+border-radius: 10px;
+border-top: 10px solid #AA4465;
+padding: 10px;
+float: none;
+text-align: left;
+}
+center{
+    margin-top:100px;
+}
+#send{
+    background: linear-gradient(to bottom right, #ba90f9 0%, #0a448f 100%);
+    width:5%;
+    height:50px;
+    border-radius: 25px;
+    color:white;
+}
